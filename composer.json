@@ -1,0 +1,21 @@
+{
+    "name": "dhii/wpcr-website-reviews-cpt",
+    "description": "Custom post types and taxonomies used for the WP Code Reviews website.",
+    "authors": [
+        {
+            "name": "Miguel Muscat",
+            "email": "miguelmuscat93@gmail.com"
+        },
+        {
+            "name": "Anton Ukhanev",
+            "email": "xedin.unknown@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhii\\WpCodeReviews\\Website\\Reviews\\": "inc"
+        }
+    }
+}
