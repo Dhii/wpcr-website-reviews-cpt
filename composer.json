@@ -1,6 +1,7 @@
 {
     "name": "dhii/wpcr-website-reviews-cpt",
     "description": "Custom post types and taxonomies used for the WP Code Reviews website.",
+    "type": "wordpress-plugin",
     "authors": [
         {
             "name": "Miguel Muscat",
