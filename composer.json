@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dhii\\WpCodeReviews\\Website\\Reviews\\": "inc"
+            "Dhii\\WpCodeReviews\\Website\\Reviews\\": "inc/"
         }
     }
 }

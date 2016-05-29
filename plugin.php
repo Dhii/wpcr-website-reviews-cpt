@@ -11,7 +11,10 @@
 use \Dhii\WpCodeReviews\Website\Reviews\Plugin;
 
 // Load the autoloader - punz!
-require_once implode(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'autoload.php']);
+$autoloader = implode(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'autoload.php']);
+if (file_exists($autoloader)) {
+    require_once $autoloader;
+}
 
 // Activation/Deactivation hooks
 register_activation_hook(__FILE__, array(wpcr(), 'onActivate'));
